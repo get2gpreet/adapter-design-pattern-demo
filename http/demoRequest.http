@@ -1,0 +1,9 @@
+POST /api/v1/payments?gateway=PayPal HTTP/1.1
+Host: localhost:8080
+Content-Type: application/json
+Content-Length: 41
+
+{
+  "amount": 5.00,
+  "currency": "CAD"
+}
